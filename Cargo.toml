@@ -1,8 +1,8 @@
 [workspace]
 members = [
-    "cli",
+#    "cli",
     "cron",
-    "plugin",
+   # "plugin",
     "programs/*",
     # "relayer",
     "sdk",
