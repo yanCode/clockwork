@@ -15,6 +15,7 @@ crate-type = ["cdylib", "lib"]
 name = "clockwork_webhook_program"
 
 [features]
+idl-build = ["anchor-lang/idl-build"]
 no-entrypoint = []
 no-idl = []
 no-log-ix-name = []
