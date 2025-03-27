@@ -14,7 +14,9 @@ keywords = ["solana"]
 name = "clockwork_sdk"
 
 [dependencies]
-anchor-lang = "0.29.0"
+anchor-lang = "0.31.0"
+bytemuck_derive = "=1.8.1"
+solana-zk-sdk = "2.2.5"
 chrono = { version = "0.4.19", default-features = false, features = ["alloc"] }
 clockwork-thread-program = { path = "../programs/thread", features = ["cpi"], version = "=2.0.19" }
 nom = "~7"
